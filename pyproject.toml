@@ -1,0 +1,39 @@
+[project]
+name = "landpage-rosangela"
+version = "1.0.0"
+description = "Landing page profissional para a terapeuta Rosangela Magali"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Welington Carlos", email = "wcarlos3@gmail.com" },
+]
+keywords = ["landing-page", "terapia", "html", "css", "javascript"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Healthcare Industry",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://rosangelamagali.com.br"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "ruff>=0.1.0", # Linter for any Python scripts
+]
+
+[tool.ruff]
+line-length = 120
+indent-width = 4
+target-version = "py312"
