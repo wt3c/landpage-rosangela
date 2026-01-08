@@ -1,6 +1,7 @@
 # Landing Page - Rosangela Magali
 
-Esta é uma landing page profissional desenvolvida para a terapeuta Rosangela Magali, focada em conversão e apresentação de serviços de terapia.
+Esta é uma landing page profissional desenvolvida para a terapeuta Rosangela Magali, focada em conversão e apresentação
+de serviços de terapia.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -29,7 +30,8 @@ Todas as cores e configurações principais estão definidas no início do arqui
 
 ### Imagens
 
-As imagens atuais são placeholders do Unsplash. Para alterar, substitua os atributos `src` das tags `<img>` no `index.html` pelas URLs das suas imagens ou caminhos de arquivos locais (ex: `img/minha-foto.jpg`).
+As imagens atuais são placeholders do Unsplash. Para alterar, substitua os atributos `src` das tags `<img>` no
+`index.html` pelas URLs das suas imagens ou caminhos de arquivos locais (ex: `img/minha-foto.jpg`).
 
 ### WhatsApp
 
@@ -55,14 +57,14 @@ Esta página é estática, o que facilita muito a hospedagem gratuita ou de baix
 ### Opções Recomendadas
 
 1. **Vercel / Netlify**:
-   - Crie uma conta.
-   - Arraste a pasta do projeto para o dashboard ou conecte seu repositório Git.
-   - O deploy é automático.
+    - Crie uma conta.
+    - Arraste a pasta do projeto para o dashboard ou conecte seu repositório Git.
+    - O deploy é automático.
 
 2. **GitHub Pages**:
-   - Crie um repositório no GitHub.
-   - Suba os arquivos.
-   - Vá em Settings > Pages e selecione a branch `main`.
+    - Crie um repositório no GitHub.
+    - Suba os arquivos.
+    - Vá em Settings > Pages e selecione a branch `main`.
 
 ## 📊 SEO e Performance
 

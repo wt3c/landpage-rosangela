@@ -1,6 +1,5 @@
 /*==================== SHOW MENU ====================*/
-const navMenu = document.getElementById('nav-menu'),
-    navToggle = document.getElementById('nav-toggle'),
+const navMenu = document.getElementById('nav-menu'), navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
 
 /* Validate if constant exists */
@@ -90,9 +89,7 @@ window.addEventListener('scroll', scrollUp)
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 // Simple Intersection Observer for fade-in animations
 const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
+    root: null, rootMargin: '0px', threshold: 0.1
 };
 
 const observer = new IntersectionObserver((entries, observer) => {
