@@ -124,7 +124,7 @@
         <div class="hero__bg"></div>
         <div class="container hero__container">
             <div class="hero__data">
-                <BR><BR><BR><BR>
+                <span class="hero__tag">Terapia & Bem-estar</span>
                 <h1 class="hero__title">Reencontre seu equilíbrio e bem-estar emocional</h1>
                 <p class="hero__description">
                     Um espaço seguro e acolhedor para sua jornada de autoconhecimento e cura.
@@ -200,8 +200,8 @@
             <div class="services__container grid">
                 <!-- Card 1 -->
                 <div class="services__card">
-                    <div class="services__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    <div class="services__icon-wrap">
+                        <svg class="services__icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                              stroke-linejoin="round">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -218,14 +218,13 @@
 
                 <!-- Card 2 -->
                 <div class="services__card">
-                    <div class="services__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    <div class="services__icon-wrap">
+                        <svg class="services__icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                              stroke-linejoin="round">
-                            <path d="M4.5 9.5V4a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v5.5"></path>
-                            <path d="M2 20h20"></path>
-                            <path d="M12 15v5"></path>
-                            <path d="M7 15a5 5 0 0 1 10 0"></path>
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
                         </svg>
                     </div>
                     <h3 class="services__title">Terapia Online</h3>
@@ -236,13 +235,12 @@
 
                 <!-- Card 3 -->
                 <div class="services__card">
-                    <div class="services__icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    <div class="services__icon-wrap">
+                        <svg class="services__icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                              stroke-linejoin="round">
-                            <path
-                                    d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3">
-                            </path>
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 8v4l3 3"></path>
                         </svg>
                     </div>
                     <h3 class="services__title">Orientação Vocacional</h3>
@@ -262,35 +260,43 @@
                 <h2 class="section__title">Benefícios para sua vida</h2>
                 <ul class="benefits__list">
                     <li class="benefits__item">
-                        <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                             stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <div class="benefits__icon-wrap">
+                            <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
                         <span>Melhora na qualidade dos relacionamentos</span>
                     </li>
                     <li class="benefits__item">
-                        <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                             stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <div class="benefits__icon-wrap">
+                            <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
                         <span>Maior autoconhecimento e autoestima</span>
                     </li>
                     <li class="benefits__item">
-                        <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                             stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <div class="benefits__icon-wrap">
+                            <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
                         <span>Controle da ansiedade e estresse</span>
                     </li>
                     <li class="benefits__item">
-                        <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                             stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <div class="benefits__icon-wrap">
+                            <svg class="benefits__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
                         <span>Resolução de conflitos internos</span>
                     </li>
                 </ul>
@@ -310,19 +316,31 @@
 
             <div class="testimonials__container grid">
                 <div class="testimonial__card">
+                    <div class="testimonial__stars">★★★★★</div>
                     <p class="testimonial__text">"A terapia com a Rosangela foi um divisor de águas na minha vida.
                         Me sinto muito mais leve e confiante."</p>
-                    <h4 class="testimonial__name">Ana Silva</h4>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">AS</div>
+                        <h4 class="testimonial__name">Ana Silva</h4>
+                    </div>
                 </div>
                 <div class="testimonial__card">
+                    <div class="testimonial__stars">★★★★★</div>
                     <p class="testimonial__text">"Profissional excelente, muito atenciosa e acolhedora. Recomendo a
                         todos que buscam autoconhecimento."</p>
-                    <h4 class="testimonial__name">Carlos Souza</h4>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">CS</div>
+                        <h4 class="testimonial__name">Carlos Souza</h4>
+                    </div>
                 </div>
                 <div class="testimonial__card">
+                    <div class="testimonial__stars">★★★★★</div>
                     <p class="testimonial__text">"O ambiente é seguro e me senti à vontade desde a primeira sessão.
                         Gratidão imensa!"</p>
-                    <h4 class="testimonial__name">Mariana Costa</h4>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">MC</div>
+                        <h4 class="testimonial__name">Mariana Costa</h4>
+                    </div>
                 </div>
             </div>
         </div>
